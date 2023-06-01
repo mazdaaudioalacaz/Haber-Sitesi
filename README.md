@@ -34,8 +34,8 @@ Bu projeyi yaparken kendimi geliştirdiğim ve öğrendiğim konular ise;
 
 ### Main Bölümü
 
-![Header](images/main-header.png)
+![Main](images/main.png)
 
 ### Footer Bölümü
 
-![Header](images/main-header.png)
+![Footer](images/footer.png)
