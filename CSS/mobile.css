@@ -1,3 +1,4 @@
+/* nav etiketi */
 #main-nav .social-icons {
     display: none;
 }
@@ -9,4 +10,30 @@
 
 #main-nav ul, #main-nav img {
     justify-self: center;
+}
+
+/* section etiketi */
+#main-articles .articles-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 600px) {
+    #header .header-container, 
+    #main-articles .articles-container, 
+    #main-footer .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    #main-footer .footer-container > div:last-child {
+        grid-column: 1;
+    }
+
+    #main-footer .footer-container > div {
+        border-bottom: 1px dotted #444;
+        padding-bottom: 1rem;
+    }
+
+    .page-container {
+        grid-template-columns: 1fr;
+    }
 }
